@@ -25,3 +25,13 @@ This tool includes a Shiny app for interactive data analysis. To run the app:
    install.packages(c("shiny", "ggplot2", "dplyr"))
 
 
+## Linux Analysis Scripts
+
+This repository includes a set of Linux-based analysis scripts located in the `linux_analysis` folder.
+
+### Running Data Preprocessing
+
+To run the data preprocessing script:
+
+```bash
+bash linux_analysis/data_preprocessing.sh
