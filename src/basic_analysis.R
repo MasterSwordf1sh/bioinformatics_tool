@@ -33,6 +33,7 @@ print(result)
 data_matrix <- as.matrix(data[, -1])  # Modify this as needed based on your data structure
 Heatmap(data_matrix, name = "Expression", row_title = "Samples", column_title = "Features")
 
+#DownstreamAnalysis
 
 # Load required libraries
 library(ggplot2)
